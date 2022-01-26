@@ -4,17 +4,21 @@ html {
   }
 
 body {
+    min-width: 100vh;
     margin:auto;
     font-family: sans-serif;
-    background: linear-gradient(#141e30, #243b55);
-    }
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75));
+    background: url(../img/fondo.png)
+    no-repeat center center fixed;
+    background-size: cover;
+}
 
 h1, h2 {
     margin: 50 50 60px;
     padding: 00;
     color: #fff;
     text-align: left;
-    }
+}
 
 .perfil {
     width: 148px;
@@ -25,13 +29,14 @@ h1, h2 {
     color: #fff;
     border-radius: 150px;
     border: 5px solid #fff;
-  }
+}
 
 .email {
     color: #fff;
     text-align: center;
     padding: 25px;
     float: left;
+    background:none;
 }
 
 .direccion {
@@ -49,9 +54,19 @@ h1, h2 {
     top: 220px; right: 510px;
     min-width: none;
     max-height: 30px;
-    color: #fff;
     padding: 5px;
-    }
+    border-radius: 150px;
+    background-image: none;
+}
+
+.link {
+    float: left;
+    position: relative;
+    top: 220px; right: 510px;
+    min-width: none;
+    max-height: 30px;
+    padding: 5px;
+}
 
 .footer {
     position: absolute;
@@ -64,4 +79,8 @@ h1, h2 {
 button.accept-policy {
     font-size: 1rem;
     line-height: inherit;
-  }
+}
+  
+a {
+    color: #fff;
+}
