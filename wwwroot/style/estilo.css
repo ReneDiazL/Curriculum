@@ -7,9 +7,9 @@ body {
     min-width: 100vh;
     margin:auto;
     font-family: sans-serif;
-    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75));
-    background: url(../img/fondo.png)
-    no-repeat center center fixed;
+    background: linear-gradient(rgba(100, 100, 80, 0.75),
+    rgba(100, 100, 255, 0.75)), url(../img/fondo.png) no-repeat center 
+    center fixed;
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@ h1, h2 {
     top: 2px; right: 70px;
     color: #fff;
     border-radius: 150px;
-    border: 5px solid #fff;
+    border: 5px solid #D3D3D3;
 }
 
 .email {
@@ -81,6 +81,6 @@ button.accept-policy {
     line-height: inherit;
 }
   
-a {
+a, .container {
     color: #fff;
 }
