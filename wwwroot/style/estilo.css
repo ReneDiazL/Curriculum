@@ -1,34 +1,100 @@
 html {
     height: 100%;
     width: 100%;
-  }
-
+}
+  
 body {
-    min-width: 100vh;
-    margin:auto;
+    min-height: 100vh;
+    margin: auto;
     font-family: sans-serif;
     background: linear-gradient(rgba(100, 100, 80, 0.75),
-    rgba(100, 100, 255, 0.75)), url(../img/fondo.png) no-repeat center 
+    rgba(57, 57, 88, 0.75)), url(../img/fondo.png) no-repeat center 
     center fixed;
-    background-size: cover;
+    background-size: cover; 
+    background-attachment: fixed;
 }
 
-h1, h2 {
+.conten{
+    width: 98%;
+    margin-left: 20px;
+    overflow:hidden;
+}
+
+
+h1 {
     margin: 50 50 60px;
     padding: 00;
     color: #fff;
     text-align: left;
+    font-size: 1.8rem;
 }
+
+h2, h3 {
+    margin: 50 50 60px;
+    padding: 00;
+    color: #fff;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+h4, h5 {
+    padding: 00;
+    color: #fff;
+    text-align: left;
+    font-size: .9rem;
+}
+
+h6{
+    padding: 00;
+    color: #fff;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
 
 .perfil {
     width: 148px;
     height: 184px;
     float: left;
     position: relative;
-    top: 2px; right: 70px;
+    top: 2px; right: 78px;
     color: #fff;
     border-radius: 150px;
     border: 5px solid #D3D3D3;
+}
+
+.estudios{
+    width: max-content;
+    padding: 00;
+    color: #fff;
+    float: left;
+    top: 10px; left: 0px;
+    text-align: left;
+    position: relative;
+    border-left-style: dotted;
+    border-width: 6px;
+    border-block-end: double;
+    border-block-end-width: 6px;
+    padding-left: 10px; 
+}
+
+.experiencia{
+    color: #fff;
+    float: left;
+    top: -290px; left: 148px;
+    text-align: left;
+    position: relative;
+    border-left-style: dotted;
+    border-width: 6px;
+    padding-left: 10px; 
+    margin-right: 111px;
+}
+
+.info{
+    border-top-style: double;
+    border-right-style: double;
+    border-block-end-style: double;
+    font-size: 0.8rem;
 }
 
 .footer {
@@ -52,8 +118,8 @@ a,.container {
 .informacion{
     float: right;
     position: relative;
-    margin-top: 95px; right: 950px;
-    padding: 15px;
+    margin-top: 100px; right: 950px;
+    padding: 30px;
 }
 
 .contacto{
