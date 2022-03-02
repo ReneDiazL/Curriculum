@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Curriculum.csproj": {}
+    "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Curriculum.csproj": {
+    "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Curriculum.csproj",
-        "projectName": "Curriculum",
-        "projectPath": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Curriculum.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Web.csproj",
+        "projectName": "Web",
+        "projectPath": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Web.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\obj\\",
         "projectStyle": "PackageReference",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\Desktop\\CV\\Curriculum\\Curriculum.csproj",
-      "projectName": "Curriculum",
-      "projectPath": "C:\\Users\\diego\\Desktop\\CV\\Curriculum\\Curriculum.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Web.csproj",
+      "projectName": "Web",
+      "projectPath": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\Web.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\Desktop\\CV\\Curriculum\\obj\\",
+      "outputPath": "C:\\Users\\diego\\Desktop\\CV\\SitioWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
